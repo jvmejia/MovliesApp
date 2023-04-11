@@ -18,6 +18,15 @@ class MainActivity : AppCompatActivity() {
 
         }
 
+        val btnn: ImageButton = findViewById(R.id.imageButton6)
+        btnn.setOnClickListener{
+
+            val intent: Intent = Intent(this, CalculadoraMasa::class.java)
+            startActivity(intent)
+
+        }
+
+
     }
 
     override fun onBackPressed() {
