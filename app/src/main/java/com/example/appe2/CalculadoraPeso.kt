@@ -33,6 +33,7 @@ class CalculadoraPeso : AppCompatActivity() {
         btn.setOnClickListener{
             val intent: Intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
+
         }
     }
 
