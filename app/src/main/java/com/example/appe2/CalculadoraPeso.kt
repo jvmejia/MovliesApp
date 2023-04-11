@@ -1,9 +1,11 @@
 package com.example.appe2
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+import android.widget.ImageButton
 import android.widget.TextView
 import kotlin.math.pow
 
@@ -26,5 +28,12 @@ class CalculadoraPeso : AppCompatActivity() {
 
             resultadoTextView.text = "Tu BMI es: %.2f".format(bmi)
         }
+
+        val btn: ImageButton = findViewById(R.id.imageButton2)
+        btn.setOnClickListener{
+            val intent: Intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
     }
+
 }
