@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">AppE2</string>
+    <string name="saludo">Hola!</string>
+    <string name="Intro">Aprovecha al máximo el día.</string>
+    <string name="Calculadora">Calculadora</string>
+    <string name="BMI">BMI</string>
+    <string name="Ejercicios">Ejercicios</string>
+    <string name="Calc_Altura">Altura (cm)</string>
+    <string name="calc_Peso">Peso (kg)</string>
+    <string name="calc_Op">Calcular</string>
+    <string name="calc_Titulo">Calculadora BMI</string>
+    <string name="masculino">Masculino</string>
+    <string name="femenino">Femenino</string>
+    <string name="nombre">Nombre</string>
 </resources>

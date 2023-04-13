@@ -13,7 +13,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="45dp"
         android:layout_marginEnd="16dp"
-        android:hint="Weight (kg)"
+        android:hint="@string/calc_Peso"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etHeight" />
@@ -25,7 +25,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="45dp"
         android:layout_marginEnd="16dp"
-        android:hint="Height (cm)"
+        android:hint="@string/Calc_Altura"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/rgGender" />
@@ -47,13 +47,13 @@
             android:id="@+id/rbMale"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Male" />
+            android:text="@string/masculino" />
 
         <RadioButton
             android:id="@+id/rbFemale"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Female" />
+            android:text="@string/femenino" />
 
     </RadioGroup>
 
@@ -64,7 +64,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="54dp"
         android:layout_marginEnd="32dp"
-        android:text="Calculate"
+        android:text="@string/calc_Op"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etAge" />
@@ -90,7 +90,7 @@
         android:layout_marginTop="21dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:text="@string/nombre"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etWeight" />
